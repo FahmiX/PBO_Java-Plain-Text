@@ -671,9 +671,6 @@
                 <Property name="text" type="java.lang.String" value="filename.txt"/>
                 <Property name="toolTipText" type="java.lang.String" value=""/>
               </Properties>
-              <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="openTextActionPerformed"/>
-              </Events>
             </Component>
             <Component class="javax.swing.JButton" name="saveButton">
               <Properties>
@@ -711,9 +708,6 @@
                 <Property name="text" type="java.lang.String" value="filename.txt"/>
                 <Property name="toolTipText" type="java.lang.String" value=""/>
               </Properties>
-              <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="saveTextActionPerformed"/>
-              </Events>
             </Component>
             <Component class="javax.swing.JButton" name="infoButton">
               <Properties>
@@ -728,14 +722,12 @@
             </Component>
             <Component class="javax.swing.JTextField" name="infoText">
               <Properties>
+                <Property name="editable" type="boolean" value="false"/>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                   <Color blue="ff" green="ff" red="ff" type="rgb"/>
                 </Property>
                 <Property name="toolTipText" type="java.lang.String" value=""/>
               </Properties>
-              <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="infoTextActionPerformed"/>
-              </Events>
             </Component>
           </SubComponents>
         </Container>

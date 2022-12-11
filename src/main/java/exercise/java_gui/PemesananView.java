@@ -361,11 +361,6 @@ public class PemesananView extends javax.swing.JFrame {
         openText.setBackground(new java.awt.Color(255, 255, 255));
         openText.setText("filename.txt");
         openText.setToolTipText("");
-        openText.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                openTextActionPerformed(evt);
-            }
-        });
 
         saveButton.setBackground(new java.awt.Color(0, 102, 0));
         saveButton.setForeground(new java.awt.Color(255, 255, 255));
@@ -388,23 +383,14 @@ public class PemesananView extends javax.swing.JFrame {
         saveText.setBackground(new java.awt.Color(255, 255, 255));
         saveText.setText("filename.txt");
         saveText.setToolTipText("");
-        saveText.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                saveTextActionPerformed(evt);
-            }
-        });
 
         infoButton.setBackground(new java.awt.Color(102, 102, 0));
         infoButton.setForeground(new java.awt.Color(255, 255, 255));
         infoButton.setText("INFO");
 
+        infoText.setEditable(false);
         infoText.setBackground(new java.awt.Color(255, 255, 255));
         infoText.setToolTipText("");
-        infoText.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                infoTextActionPerformed(evt);
-            }
-        });
 
         javax.swing.GroupLayout filePanelLayout = new javax.swing.GroupLayout(filePanel);
         filePanel.setLayout(filePanelLayout);
@@ -715,18 +701,6 @@ public class PemesananView extends javax.swing.JFrame {
             infoText.setText("Terjadi Kesalahan");
         }
     }//GEN-LAST:event_openButtonActionPerformed
-
-    private void saveTextActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_saveTextActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_saveTextActionPerformed
-
-    private void openTextActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_openTextActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_openTextActionPerformed
-
-    private void infoTextActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_infoTextActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_infoTextActionPerformed
 
     /**
      * @param args the command line arguments
